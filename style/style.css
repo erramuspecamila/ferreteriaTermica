@@ -130,6 +130,7 @@ a{
 
 form{
     font-family: 'Montserrat', sans-serif;
+    margin-top: 100px;
     
 }
 
@@ -137,7 +138,7 @@ p{
     color: #333c4e;
     padding: 10px;
     margin-right: 280px;
-    margin-top: 63px;
+    margin-top: 100px;
     margin-left: 60px;
     border: 30px;
     display: flex;
@@ -341,6 +342,8 @@ form{
 
 /*INICIO*/;
 
+
+
 .fondonav{
     background-color: #333c4e;
 }
@@ -376,7 +379,39 @@ ul.navbar-nav{
     font-size: large;
     display: grid;
     justify-content: center;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows:  2fr 2fr 2fr;
+    gap: 2px;
+    grid-template-areas: 
+    "item1 item1"
+    "item2 item3"
+    "item4 item4";
 }
+
+.grid-item1{
+    text-align: center;
+    border: black 5px solid;
+    grid-area: item1;
+}
+
+.grid-item2{
+    text-align: center;
+    border: black 5px solid;
+    grid-area: item2;
+}
+
+.grid-item3{
+    text-align: center;
+    border: black 5px solid;
+    grid-area: item3;
+}
+
+.grid-item4{
+    text-align: center;
+    border: black 5px solid;
+    grid-area: item4;
+}
+
 
 
 .frentequinto{
@@ -578,4 +613,8 @@ footer{
 
 .fondoNav{
     background-color: #333c4e;
+}
+
+.navbar{
+    position: fixed;
 }
