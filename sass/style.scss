@@ -1,0 +1,423 @@
+@import "fuente";
+@import "generales";
+@import "titulo";
+@import "index";
+
+
+
+
+
+
+
+.parrafoSegundo{
+    color: black;
+}
+
+.color{
+    color: blueviolet;
+}
+
+#parrafoTercero{
+    color: rgb(24, 2, 88);
+}
+
+span{
+    color: brown;
+}
+
+.sectionfirst h2{
+    color:#0d295a;
+    font-weight: bold;
+}
+
+.maps{
+    align-items: center;
+    margin-left: 2cm;
+}
+
+form{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 100px;
+    
+}
+
+.sp{
+    border-radius: 20px;
+    color: antiquewhite;
+}
+
+.logo{
+    width: 100px;
+    height: auto;
+    margin-top: 10px;
+
+}
+
+.logotermica{
+    width: 100px;
+    height: auto;
+    margin-top: 10px;
+    display: flexbox;
+}
+
+
+
+.icon{
+    width: 48px;
+    height: 48px;
+}
+
+.logo{
+    max-width: 117px;
+    height: 50px;
+    margin: 10px 10px 10px 10px;
+    display: flexbox;
+    
+
+}
+
+
+.link{
+    font-family: 'Montserrat', sans-serif;
+    color: #f4f4f4;
+    font-size: xx-large;
+}
+
+iframe{
+    margin: 10px 10px 10px 10px;
+    max-width: 60%;
+    max-height: 60%
+    
+}
+
+
+
+.flex-container{
+    /*flex*/
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    background-color: #284d8d;
+    padding: 30px;
+
+}
+
+.flex-items{
+    order: 3;
+}
+
+div{
+    background-color: #2196F3;
+    display: grid;
+
+    
+    
+
+}
+.redes{
+    display: flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    background-color: #f20505;
+    flex-wrap:nowrap;
+    align-content: flex-start;
+
+}
+
+
+aside{
+    font-family:'Montserrat', sans-serif ;
+}
+
+
+
+
+
+.lorem{
+    display: flex;
+    grid-area: lorem;
+    justify-content: center;
+}
+
+form{
+    grid-area: form;
+    display: flexbox
+}
+
+.segundaseccion{
+    display: grid;
+    grid-template-columns: 50em 50em;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "lorem form" ;
+    
+}
+
+
+
+
+
+
+
+.banner{
+    grid-area: banner;
+    max-width: 200%;
+    max-height: 149%;
+}
+
+.border{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 2fr;
+    grid-template-areas: 
+    "banner" "banner";
+}
+
+/*INICIO*/;
+
+
+
+.fondonav{
+    background-color: #333c4e;
+}
+
+ul.navbar-nav{
+    color: white;
+
+}
+
+.navbar-nav{
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    flex-wrap: nowrap;
+}
+
+.container-fluid{
+    background-color: #333c4e;
+    display: flex;
+}
+
+.navbar-light .navbar-nav .nav-link.active{
+    color: #f4f4f4;
+}
+
+
+.grid-container{
+    background-color:#2196F3;
+    font-family: 'Montserrat', sans-serif;
+    justify-items: start;
+    font-size: large;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows:  2fr 2fr 2fr;
+    gap: 2px;
+    grid-template-areas: 
+    "item1 item1"
+    "item2 item3"
+    "item4 item4";
+}
+
+.grid-item1{
+    text-align: center;
+    border: black 5px solid;
+    grid-area: item1;
+}
+
+.grid-item2{
+    text-align: center;
+    border: black 5px solid;
+    grid-area: item2;
+}
+
+.grid-item3{
+    text-align: center;
+    border: black 5px solid;
+    grid-area: item3;
+}
+
+
+
+.frentequinto{
+    flex-wrap: wrap;
+    border-radius: 50%;
+    max-width: 190px;
+    max-height: 190px;
+    justify-content: center;
+}
+
+.herramientas .frentequinto{
+    max-width: 190px;
+    max-height: 190px;
+    
+}
+
+.herramientas{
+    margin-top:150px ;
+    max-width: 190px;
+    max-height: 190px;
+}
+
+
+
+
+
+
+
+
+/*contacto*/;
+
+.contacto{
+    color:black
+    
+}
+
+
+
+.seccion-contacto{
+    display: grid;
+}
+
+.seccion2{
+    display: flex;
+}
+
+.sp{
+    display:flex;
+}
+
+/*productos*/;
+
+header{
+    grid-area: header;
+
+}
+
+nav{
+    grid-area: nav;
+
+}
+
+.contenido{
+    grid-area: contenido;
+
+}
+
+aside{
+    grid-area: aside;
+    text-align: center ;
+
+}
+
+.maquinarias{
+    grid-area: maquinarias;
+
+}
+
+
+footer{
+    grid-area: footer;
+
+}
+
+.envoltura{
+    background-color: #333c4e;
+    margin-bottom: 1,5em;
+    display: grid;
+    grid-template-areas: 
+    "header" "header"
+    "nav" "nav"
+    "contenido" "aside"
+    "galeria" "galeria"
+    "maquinarias" "maquinarias"
+    "footer" "footer"
+    ;
+    gap: 20%;
+}
+
+
+
+
+
+
+
+
+
+@media(min-width: 320px){
+    .envoltura{
+        display: grid;
+        grid-template-areas: 
+        "header" "header"
+        "nav" "nav"
+        "contenido" "aside"
+        "galeria" "galeria"
+        "maquinarias" "maquinarias"
+        "footer" "footer"
+        ;
+    }
+
+    nav ul{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    nav ul,article,aside{
+        color: #f20505;
+    }
+
+    .ferre{
+        width: 350px;
+        height: 300px;
+    }
+
+    footer{
+        margin-top: 0%;
+    }
+}
+
+@media(min-width:1024px){
+    .envoltura{
+        color:#2196F3
+    }
+
+    .padre{
+        padding:1,5em;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: auto;
+        margin: 0;
+
+    }
+
+    .ferre{
+        width: 475px;
+        height: 400px;
+        margin-top: 20px;
+    }
+}
+
+.banner:hover{
+    animation:banner 4s;
+
+}
+
+@keyframes banner{
+    0% {transform:translateX(400px);}
+    25% { transform:scale(2);}
+    50% {border-radius: 10px;}
+    75%{transform: translateY(200px);}
+
+}
+
+.fondoNav{
+    background-color: #333c4e;
+}
+
+.navbar{
+    position: fixed;
+}

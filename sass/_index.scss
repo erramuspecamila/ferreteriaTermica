@@ -1,0 +1,21 @@
+.galeria-grid{
+    grid-area: galeria;
+    .padre{
+        background-color: #284d8d;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 1fr;
+        padding:10px;
+        align-items: stretch;
+            div{
+                background-color: #2196F3;
+                display: grid;
+                    .ferre{
+                        width: 300px;
+                        height: 250px;
+                        margin-top: 15px;
+                    }
+            }
+    }
+}
+

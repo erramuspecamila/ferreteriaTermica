@@ -1,0 +1,77 @@
+.grid-item1{
+    text-align: center;
+    border: black 5px solid;
+    grid-area: item1;
+
+        h1{
+            font-style: normal;
+            font-weight: lighter;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 55px;
+            text-align: center;
+            color:#333c4e;
+            padding: 30px;
+            border: 2px solid #333c4e;
+            margin: 80px 40px 307px 40px;
+        p{
+            font-size: 17px;
+            text-align: justify;
+            line-height: 1.6;
+            text-transform: lowercase;
+            letter-spacing: 1px;
+            word-spacing: 2px;
+            color: aliceblue;
+            display: flexbox;
+            color: #333c4e;
+            padding: 10px;
+            margin-right: 280px;
+            margin-top: 100px;
+            margin-left: 60px;
+            border: 30px;
+            display: flex;
+            align-content: flex-start;
+            text-align: start;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        }
+    }
+    
+.grid-item4{
+    text-align: center;
+    border: black 5px solid;
+    grid-area: item4;
+
+        h1{
+            font-style: normal;
+            font-weight: lighter;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 55px;
+            text-align: center;
+            color:#333c4e;
+            padding: 30px;
+            border: 2px solid #333c4e;
+            margin: 80px 40px 307px 40px;
+
+        .Engrampadora{
+            text-align: center;
+            width: 30px;
+            height:50px;
+            color: #0d295a;
+            word-spacing:2px;
+        
+
+        .Caja{
+            margin-left: 117px;
+            margin-right: 10px;
+            text-align: center;
+            width: 30px;
+            height: 104px;
+            color: #0d295a;
+            word-spacing:2px;
+
+        }
+        }
+        }
+}
