@@ -1,7 +1,9 @@
+@import "variableGlobal";
 @import "fuente";
 @import "generales";
 @import "titulo";
 @import "index";
+@import "img";
 
 
 
@@ -10,7 +12,7 @@
 
 
 .parrafoSegundo{
-    color: black;
+    color: $red;
 }
 
 .color{
@@ -18,7 +20,7 @@
 }
 
 #parrafoTercero{
-    color: rgb(24, 2, 88);
+    color: $red;
 }
 
 span{
@@ -246,8 +248,8 @@ ul.navbar-nav{
 .frentequinto{
     flex-wrap: wrap;
     border-radius: 50%;
-    max-width: 190px;
-    max-height: 190px;
+    max-width: 244px;
+    max-height: 270px;
     justify-content: center;
 }
 
@@ -263,6 +265,9 @@ ul.navbar-nav{
     max-height: 190px;
 }
 
+.banner{
+    margin-top: 127px;
+}
 
 
 
@@ -311,6 +316,7 @@ nav{
 aside{
     grid-area: aside;
     text-align: center ;
+    color:#333c4e
 
 }
 
@@ -330,12 +336,12 @@ footer{
     margin-bottom: 1,5em;
     display: grid;
     grid-template-areas: 
-    "header" "header"
-    "nav" "nav"
-    "contenido" "aside"
-    "galeria" "galeria"
-    "maquinarias" "maquinarias"
-    "footer" "footer"
+    "header header"
+    "nav nav"
+    "contenido aside"
+    "galeria galeria"
+    "maquinarias maquinarias"
+    "footer footer"
     ;
     gap: 20%;
 }
@@ -367,7 +373,7 @@ footer{
     }
 
     nav ul,article,aside{
-        color: #f20505;
+        color:#333c4e;
     }
 
     .ferre{
@@ -420,4 +426,9 @@ footer{
 
 .navbar{
     position: fixed;
+}
+
+.nosotros{
+    display:flexbox;
+    justify-content: center;
 }
