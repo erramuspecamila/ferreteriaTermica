@@ -81,8 +81,9 @@ form{
 
 .link{
     font-family: 'Montserrat', sans-serif;
-    color: #f4f4f4;
+    color: #f20505;
     font-size: xx-large;
+    height: 150px;
 }
 
 iframe{
@@ -111,7 +112,7 @@ iframe{
 }
 
 div{
-    background-color: #2196F3;
+    background-color:gainsboro;
     display: grid;
 
     
@@ -227,23 +228,36 @@ ul.navbar-nav{
 
 .grid-item1{
     text-align: center;
-    border: black 5px solid;
+    border: #0d295a 2px solid;
     grid-area: item1;
+    padding: 30px;
+
+
+
 }
 
 .grid-item2{
     text-align: center;
-    border: black 5px solid;
+    border: #0d295a 2px solid;
     grid-area: item2;
+
 }
 
 .grid-item3{
     text-align: center;
-    border: black 5px solid;
+    border: #0d295a 2px solid;
     grid-area: item3;
+    margin: 0px;
+    gap: 2px;
+
 }
 
-
+.herramientasindex{
+    justify-content: center;
+    border: 10px;
+    flex-direction: column;
+    box-sizing: border-box;
+}
 
 .frentequinto{
     flex-wrap: wrap;
@@ -407,18 +421,7 @@ footer{
     }
 }
 
-.banner:hover{
-    animation:banner 4s;
 
-}
-
-@keyframes banner{
-    0% {transform:translateX(400px);}
-    25% { transform:scale(2);}
-    50% {border-radius: 10px;}
-    75%{transform: translateY(200px);}
-
-}
 
 .fondoNav{
     background-color: #333c4e;
@@ -428,7 +431,25 @@ footer{
     position: fixed;
 }
 
-.nosotros{
+h1 .nosotros{
     display:flexbox;
     justify-content: center;
+    margin: 80px 40px 80px 40px;
+}
+
+.seccioncontacto1{
+    display: flex;
+    flex-direction:column;
+    margin-bottom: 30px;
+}
+
+.seccioncontacto2{
+    display:flex;
+    flex-direction: column;
+}
+
+.instagram{
+    height: 150px;
+    display: flexbox;
+    margin:80px 40px 80px 40px;
 }

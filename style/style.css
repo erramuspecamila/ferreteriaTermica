@@ -92,7 +92,7 @@ h4 {
 
 .grid-item1 {
   text-align: center;
-  border: black 5px solid;
+  border: #0d295a 2px solid;
   grid-area: item1;
 }
 .grid-item1 h1 {
@@ -104,7 +104,7 @@ h4 {
   color: #333c4e;
   padding: 30px;
   border: 2px solid #333c4e;
-  margin: 80px 40px 307px 40px;
+  margin: 80px 40px 80px 40px;
 }
 .grid-item1 h1 p {
   font-size: 17px;
@@ -130,7 +130,7 @@ h4 {
 
 .grid-item4 {
   text-align: center;
-  border: black 5px solid;
+  border: #0d295a 2px solid;
   grid-area: item4;
 }
 .grid-item4 h1 {
@@ -141,7 +141,7 @@ h4 {
   text-align: center;
   color: #333c4e;
   padding: 30px;
-  margin: 80px 40px 307px 40px;
+  margin: 109px 16px 67px 40px;
 }
 .grid-item4 h1 .Engrampadora {
   text-align: center;
@@ -168,7 +168,7 @@ h1 {
   text-align: center;
   color: #333c4e;
   padding: 30px;
-  margin: 80px 40px 307px 40px;
+  margin: 109px 16px 67px 40px;
   display: flexbox;
 }
 
@@ -186,6 +186,7 @@ h1 {
 .galeria-grid .padre div {
   background-color: #2196F3;
   display: grid;
+  justify-content: center;
 }
 .galeria-grid .padre div .ferre {
   width: 300px;
@@ -271,8 +272,9 @@ form {
 
 .link {
   font-family: "Montserrat", sans-serif;
-  color: #f4f4f4;
+  color: #f20505;
   font-size: xx-large;
+  height: 150px;
 }
 
 iframe {
@@ -296,7 +298,7 @@ iframe {
 }
 
 div {
-  background-color: #2196F3;
+  background-color: gainsboro;
   display: grid;
 }
 
@@ -386,20 +388,30 @@ ul.navbar-nav {
 
 .grid-item1 {
   text-align: center;
-  border: black 5px solid;
+  border: #0d295a 2px solid;
   grid-area: item1;
+  padding: 30px;
 }
 
 .grid-item2 {
   text-align: center;
-  border: black 5px solid;
+  border: #0d295a 2px solid;
   grid-area: item2;
 }
 
 .grid-item3 {
   text-align: center;
-  border: black 5px solid;
+  border: #0d295a 2px solid;
   grid-area: item3;
+  margin: 0px;
+  gap: 2px;
+}
+
+.herramientasindex {
+  justify-content: center;
+  border: 10px;
+  flex-direction: column;
+  box-sizing: border-box;
 }
 
 .frentequinto {
@@ -514,40 +526,6 @@ footer {
     margin-top: 20px;
   }
 }
-.banner:hover {
-  -webkit-animation: banner 4s;
-          animation: banner 4s;
-}
-
-@-webkit-keyframes banner {
-  0% {
-    transform: translateX(400px);
-  }
-  25% {
-    transform: scale(2);
-  }
-  50% {
-    border-radius: 10px;
-  }
-  75% {
-    transform: translateY(200px);
-  }
-}
-
-@keyframes banner {
-  0% {
-    transform: translateX(400px);
-  }
-  25% {
-    transform: scale(2);
-  }
-  50% {
-    border-radius: 10px;
-  }
-  75% {
-    transform: translateY(200px);
-  }
-}
 .fondoNav {
   background-color: #333c4e;
 }
@@ -556,7 +534,25 @@ footer {
   position: fixed;
 }
 
-.nosotros {
+h1 .nosotros {
   display: flexbox;
   justify-content: center;
+  margin: 80px 40px 80px 40px;
+}
+
+.seccioncontacto1 {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.seccioncontacto2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.instagram {
+  height: 150px;
+  display: flexbox;
+  margin: 80px 40px 80px 40px;
 }/*# sourceMappingURL=style.css.map */
