@@ -555,4 +555,42 @@ h1 .nosotros {
   height: 150px;
   display: flexbox;
   margin: 80px 40px 80px 40px;
+}
+
+.btn--twitter {
+  background-color: #55acee;
+}
+
+.btn--facebook {
+  background-color: #3a5789;
+}
+
+.btn--instagram {
+  background-color: #c25e30;
+}
+
+.redSocial, .redsocial--mark, .redsocial--nueva, .redsocial--social {
+  border: 1px solid red;
+  background: yellow;
+}
+
+.redsocial--social {
+  font-size: 15px;
+  color: red;
+}
+
+.redsocial--nueva {
+  font-size: 15px;
+  color: blue;
+}
+
+.redsocial--mark {
+  font-size: 15px;
+  color: #333c4e;
+}
+
+.my_mixin {
+  height: 50px;
+  width: 500px;
+  background-color: red;
 }/*# sourceMappingURL=style.css.map */

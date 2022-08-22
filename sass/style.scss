@@ -453,3 +453,56 @@ h1 .nosotros{
     display: flexbox;
     margin:80px 40px 80px 40px;
 }
+
+$redes: (
+    twitter: #55acee,
+    facebook: #3a5789,
+    instagram: #c25e30,
+
+);
+
+@each $red, $color in $redes {
+    .btn--#{$red} {
+        background-color: $color;
+    }
+    
+    
+}
+
+.redSocial{
+    border: 1px solid red;
+    background: yellow;
+}
+
+.redsocial--social{
+    @extend .redSocial;
+    font-size: 15px;
+    color:red;
+
+}
+
+.redsocial--nueva{
+    @extend .redSocial;
+    font-size: 15px;
+    color:blue;
+}
+
+.redsocial--mark{
+    @extend .redSocial;
+    font-size: 15px;
+    color:#333c4e;
+}
+
+@mixin sizes($width, $height) {
+    height: $height;
+    width: $width;
+    
+}
+
+.my_mixin{
+    @include sizes(500px, 50px);
+    background-color: red;
+
+
+
+}
