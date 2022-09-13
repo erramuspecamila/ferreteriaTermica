@@ -39,7 +39,7 @@ span{
 
 form{
     font-family: 'Montserrat', sans-serif;
-    margin-top: 100px;
+    margin-top: 150px;
     
 }
 
@@ -368,16 +368,16 @@ footer{
 
 
 
-@media(min-width: 320px){
+@media(max-width:479px)and(min-width: 320px){
     .envoltura{
         display: grid;
         grid-template-areas: 
-        "header" "header"
-        "nav" "nav"
-        "contenido" "aside"
-        "galeria" "galeria"
-        "maquinarias" "maquinarias"
-        "footer" "footer"
+        "header header"
+        "nav nav"
+        "contenido aside"
+        "galeria galeria"
+        "maquinarias maquinarias"
+        "footer footer"
         ;
     }
 
@@ -398,6 +398,19 @@ footer{
     footer{
         margin-top: 0%;
     }
+
+    .navbar-toggler-icon{
+        width: 19px;
+        height: 17px;
+        font-size: 14px;
+        z-index: 50;
+        display: table-cell;
+        position: relative;
+        cursor: pointer;
+        vertical-align: middle;
+        
+    }
+
 }
 
 @media(min-width:1024px){
@@ -544,4 +557,102 @@ $redes: (
     text-align: center;
     margin: 20px 0px 15px 3px;
 }
+
+.logowp{
+    position: -webkit-sticky;
+    position: sticky;
+    bottom:0px;
+    margin-left: 90%;
+    margin-bottom: 20px;
+    
+}
+
+.navbar-toggler-icon{
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.collapse .navbar-collapse .nav{
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+}
+
+.navbar-nav{
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.navbar-collapse .nav .collapse .show{
+    background: #333c4e;
+    box-sizing: border-box;
+    padding: 8px 0px;
+
+}
+
+.collapse .navbar-collapse .nav{
+    box-sizing: border-box;
+    padding: 8px 0px;
+    background-color: #333c4e;
+
+}
+
+
+
+
+@media (max-width:1200px){
+    body{
+        font-size: 14px;
+    }
+}
+
+@media (min-width:320px)and (max-width:479px){
+    .grid-container{
+        font-size:10px;
+        grid-template-areas: 
+        "item1"
+        "item2" 
+        "item3"
+        "item4";
+    }
+
+    .grid-item1{
+        margin: 10px;
+        border-radius: 5px;
+        border: 10px;
+        padding: 2px;
+    }
+
+    .grid-item2{
+        margin: 10px;
+        border-radius: 5px;
+        border: 10px;
+        padding: 2px;
+    }
+
+
+    .segundaseccion{
+        grid-template-areas: 
+        "form"
+        "form" ;
+        font: size 10px;
+    }
+
+    form{
+        font-family: 'Montserrat', sans-serif;
+        margin-top: 150px;
+        
+    }
+
+}
+
+
 
